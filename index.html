@@ -29,16 +29,16 @@
       <div class="container">
         <h1 class="visually-hidden">Седона</h1>
 
-        <section>
+        <section class="intro">
           <img
-            class="bg-photo"
+            class="photo-intro"
             src="img/bg-intro.jpg"
             width="1200"
             height="800"
             alt="Фото гор"
           />
           <img
-            class="welcome"
+            class="welcome-intro"
             src="img/welcome.svg"
             width="456"
             height="350"
@@ -46,29 +46,29 @@
           />
         </section>
 
-        <section>
-          <div>
-            <b>
+        <section class="content">
+          <div class="content-advantages-list">
+            <b class="content-advantages-item">
               Седона — небольшой городок в Аризоне,<br />
               заслуживающий большего!
             </b>
-            <p>
+            <p class="content-advantages-causes">
               Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
             </p>
           </div>
         </section>
 
-        <section>
-          <div>
-            <b>Настоящий городок</b>
-            <p>— №1 —</p>
-            <p>
+        <section class="real-town">
+          <div class="real-town-list">
+            <b class="real-town-item">Настоящий городок</b>
+            <p class="real-town-item number-town">— №1 —</p>
+            <p class="real-town-item flowing-town">
               Седона — не аттракцион для туристов, там<br />
               течёт своя жизнь
             </p>
           </div>
           <img
-            class="advantages advantages-cafe"
+            class="advantages-cafe"
             src="img/photo-cafe.jpg"
             width="800"
             height="290"
@@ -120,28 +120,133 @@
           </ul>
         </section>
 
-        <section>
+        <section class="bridge">
           <img
-            class="advantages advantages-canion"
+            class="advantages-canion"
             src="img/canion.jpg"
             width="800"
             height="290"
             alt="Фото каньона"
           />
-          <div>
-            <b>
+          <div class="bridge-list">
+            <b class="bridge-item bridge-doom">
               Там есть<br />
               Мост дьявола
             </b>
-            <p>— №2 —</p>
-            <p>
+            <p class="bridge-item number-bridge">— №2 —</p>
+            <p class="bridge-item">
               Да, по нему можно пройти! Если конечно<br />
               вы осмелитесь
             </p>
           </div>
         </section>
+
+        <section class="advantages">
+          <div class="advantages-area">
+            <b class="advantages-item area">Небольшая площадь</b>
+            <p class="advantages-item">— №3 —</p>
+            <p class="advantages-item">
+              Все достопримечательности<br />
+              находятся очень близко
+            </p>
+          </div>
+
+          <div class="advantages-road">
+            <b class="advantages-item__road">Красивая дорога</b>
+            <p class="advantages-item number">— №4 —</p>
+            <p class="advantages-item">
+              Ехать в Седону из Лас-Вегаса совсем скучно<br />
+              не скучно!
+            </p>
+          </div>
+
+          <div class="advantages-tourist">
+            <b class="advantages-item__tourist">Мало туристов</b>
+            <p class="advantages-item number">— №5 —</p>
+            <p class="advantages-item">
+              Большинство едет в гранд каньон<br />
+              и толпится там
+            </p>
+          </div>
+        </section>
+
+        <section class="advantages-title">
+          <h2 class="title">Заинтересовались?</h2>
+          <p class="advantages-item__title">
+            Укажите предполагаемые даты поездки,<br />
+            и мы покажем вам лучшие предложения гостиниц в седоне
+          </p>
+        </section>
+
+        <section>
+          <h3>Поиск гостиницы в седоне</h3>
+          <form
+            class="search-form"
+            action="https://github.com/EgorTalko/Sedona"
+            method="post"
+          >
+            <label for="advantages-data">Дата заезда:</label>
+            <p class="search-form-item">
+              <input
+                class="advantages-search advantages-data"
+                type="text"
+                name="data"
+                id="advantages-data"
+                placeholder="24 апреля 2017"
+              />
+            </p>
+
+            <label for="advantages-data">Дата выезда:</label>
+            <p class="search-form-item">
+              <input
+                class="advantages-search advantages-data"
+                type="text"
+                name="data"
+                id="advantages-data"
+                placeholder="4 июля 2017"
+              />
+            </p>
+
+            <label for="advantages-age">Взрослые:</label>
+            <p class="search-form-item">
+              <input
+                class="advantages-search advantages-age"
+                type="text"
+                name="age"
+                id="advantages-age"
+                placeholder="2"
+              />
+            </p>
+
+            <label for="advantages-age">Дети:</label>
+            <p class="search-form-item">
+              <input
+                class="advantages-search advantages-age"
+                type="text"
+                name="age"
+                id="advantages-age"
+                placeholder="0"
+              />
+            </p>
+          </form>
+        </section>
+
+        <section>
+          <img
+            class="advantages-map"
+            src="img/map.jpg"
+            width="1200"
+            height="590"
+            alt="Карта гостиниц седоны"
+          />
+        </section>
       </div>
     </main>
+
+    <footer>
+      <p>#visitSEDONA</p>
+      <p>ТЕЛ: +7(495) 666-01-66</p>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
