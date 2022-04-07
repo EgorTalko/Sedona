@@ -12,22 +12,25 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
   </head>
-  <body>
-    <header>
+  <body class="container">
+    <header class="main-header">
       <nav class="main-navigation">
-        <a href="index.html"
-          ><img
-            class="main-header-logo"
-            src="img/logo.svg"
-            width="135"
-            height="70"
-            alt="Логотип Седоны"
+        <a class="main-nav-logo" href="index.html"
+          ><img src="img/logo.svg" width="135" height="70" alt="Логотип Седоны"
         /></a>
-        <ul class="main-list">
-          <li class="main-item"><a href="info.html">Информация</a></li>
-          <li class="main-item"><a href="photo-video.html">Фото и видео</a></li>
-          <li class="main-item"><a href="map.html">Карта Штата</a></li>
-          <li class="main-item"><a href="hotels.html">Гостиницы</a></li>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-item__link" href="info.html">Информация</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-item__link" href="photo-video.html">Фото и видео</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-item__link" href="map.html">Карта Штата</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-item__link" href="hotels.html">Гостиницы</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -37,14 +40,16 @@
         <h1 class="visually-hidden">Седона</h1>
 
         <section class="intro">
-          <img
-            class="photo-intro"
-            src="img/bg-intro.jpg"
-            width="1200"
-            height="800"
-            alt="Фото гор"
-          />
-          <a href="index.html">
+          <div class="intro-photo">
+            <img
+              class="bg-intro"
+              src="img/bg-intro.jpg"
+              width="1200"
+              height="800"
+              alt="Фото гор"
+            />
+          </div>
+          <div class="intro-welcome">
             <img
               class="welcome-intro"
               src="img/welcome.svg"
@@ -52,7 +57,7 @@
               height="350"
               alt="Добро пожаловать в Седону"
             />
-          </a>
+          </div>
         </section>
 
         <section class="content">
@@ -193,7 +198,7 @@
             action="https://github.com/EgorTalko/Sedona"
             method="post"
           >
-            <button class="from-search-head" tabindex="0">
+            <button class="button from-search-head" tabindex="0">
               Поиск гостиницы в седоне
             </button>
             <div>

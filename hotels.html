@@ -12,15 +12,30 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
   </head>
-  <body>
+  <body class="container">
     <header>
       <nav class="main-navigation">
-        <img class="main-header-logo" src="img/logo.svg" alt="Логотип Седоны" />
+        <a href="index.html"
+          ><img
+            class="main-header-logo"
+            src="img/logo.svg"
+            width="135"
+            height="70"
+            alt="Логотип Седоны"
+        /></a>
         <ul class="main-list">
-          <li class="main-item"><a href="info.html">Информация</a></li>
-          <li class="main-item"><a href="photo-video.html">Фото и видео</a></li>
-          <li class="main-item"><a href="map.html">Карта Штата</a></li>
-          <li class="main-item"><a href="hotels.html">Гостиницы</a></li>
+          <li class="main-item">
+            <a class="main-item__link" href="info.html">Информация</a>
+          </li>
+          <li class="main-item">
+            <a class="main-item__link" href="photo-video.html">Фото и видео</a>
+          </li>
+          <li class="main-item">
+            <a class="main-item__link" href="map.html">Карта Штата</a>
+          </li>
+          <li class="main-item">
+            <a class="main-item__link" href="hotels.html">Гостиницы</a>
+          </li>
         </ul>
       </nav>
     </header>
