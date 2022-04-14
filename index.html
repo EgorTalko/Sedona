@@ -9,10 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
   </head>
-  <body class="container">
+  <body class="container _box-shadow">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-nav-logo" href="index.html"
@@ -49,6 +49,7 @@
               alt="Фото гор"
             />
           </div>
+
           <div class="intro-welcome">
             <img
               class="welcome-intro"
@@ -74,7 +75,7 @@
 
         <section class="real-town">
           <div class="real-town-list">
-            <b class="real-town-item">Настоящий городок</b>
+            <b class="real-town-item real-town2">Настоящий<br />городок</b>
             <p class="real-town-item number-town">— №1 —</p>
             <p class="real-town-item flowing-town">
               Седона — не аттракцион для туристов, там<br />
@@ -85,7 +86,7 @@
             class="advantages-cafe"
             src="img/photo-cafe.jpg"
             width="800"
-            height="290"
+            height="256"
             alt="Фото кафе"
           />
         </section>
@@ -99,7 +100,9 @@
                 width="75"
                 height="72"
               />
-              <b>Жильё</b>
+              <div class="text-advantages">
+                <b>Жильё</b>
+              </div>
               <p>
                 Рекомендуем пожить в настоящем<br />
                 мотеле, всё как в кино!
@@ -112,7 +115,9 @@
                 width="75"
                 height="70"
               />
-              <b>Еда</b>
+              <div class="text-advantages">
+                <b>Еда</b>
+              </div>
               <p>
                 Всегда заказывайте фирменный бургер,<br />
                 вы не разочаруетесь!
@@ -125,7 +130,9 @@
                 width="64"
                 height="77"
               />
-              <b>Сувениры</b>
+              <div class="text-advantages">
+                <b>Сувениры</b>
+              </div>
               <p>
                 Не только китайского, но и местного<br />
                 производства!
@@ -157,7 +164,7 @@
 
         <section class="advantages">
           <div class="advantages-area">
-            <b class="advantages-item area">Небольшая площадь</b>
+            <b class="advantages-item area">Небольшая<br />площадь</b>
             <p class="advantages-item">— №3 —</p>
             <p class="advantages-item">
               Все достопримечательности<br />
@@ -165,8 +172,8 @@
             </p>
           </div>
 
-          <div class="advantages-road">
-            <b class="advantages-item__road">Красивая дорога</b>
+          <div class="advantages-area">
+            <b class="advantages-item area">Красивая<br />дорога</b>
             <p class="advantages-item number">— №4 —</p>
             <p class="advantages-item">
               Ехать в Седону из Лас-Вегаса совсем скучно<br />
@@ -174,8 +181,8 @@
             </p>
           </div>
 
-          <div class="advantages-tourist">
-            <b class="advantages-item__tourist">Мало туристов</b>
+          <div class="advantages-area">
+            <b class="advantages-item area">Мало<br />туристов</b>
             <p class="advantages-item number">— №5 —</p>
             <p class="advantages-item">
               Большинство едет в гранд каньон<br />
@@ -199,7 +206,7 @@
             method="post"
           >
             <button class="button from-search-head" tabindex="0">
-              Поиск гостиницы в седоне
+              <p class="search-head">Поиск гостиницы в седоне</p>
             </button>
             <div>
               <label for="advantages-data"

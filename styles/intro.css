@@ -1,0 +1,24 @@
+.intro {
+    overflow: hidden;
+    height: 508px;
+    position: relative;
+    z-index: var(--g-z-index-content);
+
+    background-image: url("img/polygon.svg");
+}
+
+.bg-intro {
+    /* object-fit: cover; */
+    object-position: 50px, 800px;
+}
+
+.intro-polygon {
+    position: absolute;
+}
+
+.intro-welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

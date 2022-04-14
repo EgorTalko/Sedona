@@ -1,0 +1,17 @@
+.title {
+    font: inherit;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.advantages-title {
+    margin-top: 35px;
+}
+
+.advantages-item__title {
+    font: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: regular;
+}

@@ -1,0 +1,20 @@
+.bridge {
+    display: flex;
+}
+
+.bridge-list {
+    text-align: center;
+    width: 400px;
+    height: 280spx;
+
+    background-color: #81B3D2;
+    color: #ffffff;
+}
+
+.bridge-doom {
+    font-size: 21px;
+}
+
+.bridge>* {
+    flex-grow: 1;
+}

@@ -1,0 +1,56 @@
+.content-advantages-item {
+    font: inherit;
+    font-weight: bold;
+
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.content-advantages-causes {
+    font: inherit;
+    font-weight: regular;
+
+    padding-top: 16px;
+
+    font-size: 14px;
+    line-height: 26px;
+
+}
+
+.list-advantages {
+    display: flex;
+
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+    font: inherit;
+
+    list-style: none;
+}
+
+.list-advantages>* {
+    flex-grow: 1;
+}
+
+.text-advantages {
+    margin-top: 28px;
+    margin-bottom: 35px;
+
+    font-weight: regular;
+    font-size: 21px;
+}
+
+.advantages {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #cfcfcf;
+}
+
+.area {
+    font-size: 21px;
+}
+
+.advantages>* {
+    flex-grow: 1;
+}

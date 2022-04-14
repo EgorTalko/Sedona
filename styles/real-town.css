@@ -1,0 +1,27 @@
+.real-town {
+    display: flex;
+    padding-top: 51px;
+    padding: 0;
+}
+
+.real-town>* {
+    flex-grow: 1;
+}
+
+.real-town-list {
+    text-align: center;
+    width: 400px;
+    height: 256px;
+
+    background-color: #81B3D2;
+    color: #ffffff;
+}
+
+.real-town-item {
+    font-size: 14px;
+}
+
+.real-town2 {
+
+    font-size: 21px;
+}
