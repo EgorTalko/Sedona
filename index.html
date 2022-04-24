@@ -200,77 +200,93 @@
         </section>
 
         <section class="search-block">
-          <button class="button from-search-head" type="button" tabindex="0">
+          <button class="button form-search-head" type="button" tabindex="0">
             <p class="search-head">Поиск гостиницы в седоне</p>
           </button>
 
-          <form
-            class="search-form"
-            action="https://github.com/EgorTalko /Sedona"
-            method="post"
-          >
-            <div class="form-input-group">
-              <label for="advantages-data">Дата заезда: </label>
-              <input
-                class="advantages-search advantages-data"
-                type="text"
-                name="data"
-                id="advantages-data"
-                placeholder="24 апреля 2017"
-              />
-
-              <button type="button" class="form-date-input">
-                <span class="visually-hidden">Выбрать Дату</span>
-              </button>
-            </div>
-
-            <div class="form-input-group">
-              <label for="advantages-data">Дата выезда: </label>
-              <input
-                class="advantages-search advantages-data"
-                type="text"
-                name="data"
-                id="advantages-data"
-                placeholder="4 июля 2017"
-              />
-              <button type="button" class="form-date-input">
-                <span class="visually-hidden">Выбрать Дату</span>
-              </button>
-            </div>
-
-            <div class="form-input-group">
-              <label for="advantages-age amount-form-label"> Взрослые: </label>
-              <button class="button" type="button">Увеличить</button>
-              <input
-                class="advantages-search advantages-age"
-                type="number"
-                name="age"
-                id="advantages-age"
-                min="0"
-                max="10"
-                placeholder="2"
-              />
-              <button class="button" type="button">Уменьшить</button>
-            </div>
-
-            <div class="form-input-group">
-              <label for="advantages-age"
-                >Дети:
-                <button class="button" type="button">Увеличить</button>
+          <div class="search-form-block">
+            <form
+              class="search-form"
+              action="https://github.com/EgorTalko /Sedona"
+              method="post"
+            >
+              <div class="form-input-group">
+                <label class="form-label" for="advantages-date-input"
+                  >Дата заезда:
+                </label>
                 <input
-                  class="advantages-search advantages-age"
+                  class="form-input form-input-date"
+                  type="text"
+                  name="data"
+                  id="advantages-date-input"
+                  placeholder="24 апреля 2017"
+                />
+
+                <button type="button" class="form-date-input">
+                  <span class="visually-hidden">Выбрать Дату</span>
+                </button>
+              </div>
+
+              <div class="form-input-group">
+                <label class="form-label" for="advantages-data-output"
+                  >Дата выезда:
+                </label>
+                <input
+                  class="form-input form-input-date"
+                  type="text"
+                  name="data"
+                  id="advantages-data-output"
+                  placeholder="4 июля 2017"
+                />
+                <button type="button" class="form-date-input">
+                  <span class="visually-hidden">Выбрать Дату</span>
+                </button>
+              </div>
+
+              <div class="form-input-group">
+                <label class="form-label form-amount-label" for="amount-adults">
+                  Взрослые:
+                </label>
+                <button class="button" type="button">
+                  <span class="visually-hidden">Увеличить</span>
+                </button>
+                <input
+                  class="form-input form-input-adults"
                   type="number"
                   name="age"
-                  id="advantages-age"
+                  id="amount-adults"
+                  min="0"
+                  max="10"
+                  placeholder="2"
+                />
+                <button class="button" type="button">
+                  <span class="visually-hidden">Уменьшить</span>
+                </button>
+
+                <label
+                  class="form-label form-amount-label"
+                  for="advantages-children"
+                  >Дети:</label
+                >
+                <button class="button" type="button">
+                  <span class="visually-hidden">Увеличить</span>
+                </button>
+                <input
+                  class="form-input form-input-children"
+                  type="number"
+                  name="age"
+                  id="advantages-children"
                   min="0"
                   max="10"
                   placeholder="0"
                 />
-                <button class="button" type="button">Уменьшить</button>
-              </label>
-            </div>
-              <button class="button" type="button">Найти</button>
-          </form>
+                <button class="button" type="button">
+                  <span class="visually-hidden">Уменьшить</span>
+                </button>
+              </div>
+              <button class="button form-button" type="button">Найти</button>
+            </form>
+          </div>
         </section>
 
         <section>

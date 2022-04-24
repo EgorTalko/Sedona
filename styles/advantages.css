@@ -54,11 +54,3 @@
 .advantages>* {
     flex-grow: 1;
 }
-
-.advantages-data {
-    width: 60%;
-}
-
-/* .advantages-data {
-    width: 10px;
-} */
